@@ -662,7 +662,7 @@
       {
         "filename": "bsidesorl-v1.kicad_sch",
         "name": "bsidesorl-v1",
-        "uuid": "00000000-0000-0000-0000-000000000000"
+        "uuid": "857b6c01-6619-44d1-8a68-a0ebdc6c0d4b"
       }
     ],
     "used_designators": "",
@@ -671,7 +671,7 @@
   "sheets": [
     [
       "857b6c01-6619-44d1-8a68-a0ebdc6c0d4b",
-      "Root"
+      "bsidesorl-v1"
     ]
   ],
   "text_variables": {},
