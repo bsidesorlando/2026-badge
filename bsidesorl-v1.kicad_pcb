@@ -22871,7 +22871,7 @@
 				(pins "1" "2" "3" "4" "5" "6")
 			)
 		)
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 1.33 -1.33)
@@ -23479,6 +23479,17 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" "C23630"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "f4b73e7e-76c0-4208-a43b-e4871388c2fd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/7ba71ff0-9903-439a-9498-32ac2f15a8c6")
 		(sheetname "/")
@@ -23773,7 +23784,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "27R4"
+		(property "Value" "33R"
 			(at 0 -1.43 45)
 			(layer "B.Fab")
 			(uuid "3614084a-97c7-4f03-b975-33da2893d61d")
@@ -23811,6 +23822,17 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
+			)
+		)
+		(property "LCSC" "C23140"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "04e2ac36-6bfd-4ff8-a93c-43d522419c51")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property ki_fp_filters "R_*")
@@ -23968,7 +23990,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "27R4"
+		(property "Value" "33R"
 			(at 0 -1.43 45)
 			(layer "B.Fab")
 			(uuid "dd83cd85-45a0-4e4f-b87a-54276e2f5be7")
@@ -24006,6 +24028,17 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
+			)
+		)
+		(property "LCSC" "C23140"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "983df956-3623-4bbf-af6b-698770039c62")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property ki_fp_filters "R_*")
@@ -24215,7 +24248,13 @@
 		(path "/88934e87-776a-4379-a886-14939803f5b5")
 		(sheetname "/")
 		(sheetfile "bsidesorl-v1.kicad_sch")
-		(attr smd)
+		(units
+			(unit
+				(name "A")
+				(pins "1" "4" "2" "5" "3" "6")
+			)
+		)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 4.572009 -1.777877)
@@ -24812,6 +24851,17 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" "C5187096"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "a9ca5b1c-60d8-4570-a376-c3809540d170")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "TSSOP*4.4x6.5mm*P0.65mm*")
 		(path "/f0d92f7e-fc53-49eb-8444-6c29954c0131")
 		(sheetname "/")
@@ -25234,7 +25284,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "27R4"
+		(property "Value" "33R"
 			(at 0 -1.43 45)
 			(layer "B.Fab")
 			(uuid "7082e0a5-2164-43d0-9af1-ceb4ddefa63b")
@@ -25272,6 +25322,17 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
+			)
+		)
+		(property "LCSC" "C23140"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "744c638b-91aa-4238-ae31-6f291db58b73")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property ki_fp_filters "R_*")
@@ -25429,7 +25490,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "27R4"
+		(property "Value" "33R"
 			(at 0 -1.43 45)
 			(layer "B.Fab")
 			(uuid "a1ee2e1c-3fe7-4bbc-9a68-d8af54de48d0")
@@ -25467,6 +25528,17 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
+			)
+		)
+		(property "LCSC" "C23140"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "f92d5ff3-42c8-4ba2-a3ab-fb7b5013d8af")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property ki_fp_filters "R_*")
@@ -25662,6 +25734,17 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
+			)
+		)
+		(property "LCSC" "C25804"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "14c85580-cbab-4708-a7b2-1859a6943382")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property ki_fp_filters "R_*")
@@ -25872,6 +25955,12 @@
 		(path "/364f41b7-c7ca-4acf-9238-c37fe3614a7e")
 		(sheetname "/")
 		(sheetfile "bsidesorl-v1.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "4" "5" "3" "10" "9" "7" "6" "8")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -26362,6 +26451,17 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" "C25804"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "719a7e0c-0edc-4350-a6ec-0cb246b131bc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/5368cf75-e7f2-46da-9e87-bad55a5b1485")
 		(sheetname "/")
@@ -26550,6 +26650,17 @@
 					(size 1.27 1.27)
 				)
 				(justify mirror)
+			)
+		)
+		(property "LCSC" "C19702"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "b948302e-2b53-41b6-baf0-3ce95f5a1e80")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property ki_fp_filters "C_*")

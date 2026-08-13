@@ -4632,7 +4632,7 @@
 				)
 			)
 		)
-		(property "Value" "27R4"
+		(property "Value" "33R"
 			(at 40.64 144.78 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4835,6 +4835,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C25804"
+			(at 44.45 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ff29ea7b-04cd-4f7c-8bf4-f6767aa0856d")
 		)
@@ -4995,6 +5006,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C25804"
+			(at 35.56 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "4cb737f7-adbc-40c8-b8f3-2ba41f516088")
 		)
@@ -5031,7 +5053,7 @@
 				)
 			)
 		)
-		(property "Value" "27R4"
+		(property "Value" "33R"
 			(at 40.64 149.86 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5110,7 +5132,7 @@
 				)
 			)
 		)
-		(property "Value" "27R4"
+		(property "Value" "33R"
 			(at 40.64 154.94 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5459,6 +5481,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 93.98 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C23630"
 			(at 93.98 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -5829,9 +5862,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "965a4165-5945-4027-a0ca-107ca0dc04de")
@@ -5857,7 +5890,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x03_P2.54mm_Vertical"
 			(at 109.22 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -5938,7 +5971,7 @@
 				)
 			)
 		)
-		(property "Value" "27R4"
+		(property "Value" "33R"
 			(at 40.64 160.02 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6533,6 +6566,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C19702"
+			(at 125.73 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6cb40662-c7e2-4bdf-9ec9-40e3694796ef")
 		)
@@ -6850,6 +6894,17 @@
 			)
 		)
 		(property "KiLib_Generator" "package/gullwing"
+			(at 68.58 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C5187096"
 			(at 68.58 62.23 0)
 			(hide yes)
 			(show_name no)
