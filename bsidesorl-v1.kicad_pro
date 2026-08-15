@@ -60,11 +60,11 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.5,
-          "min_island_area": 10.0,
-          "min_thickness": 0.25,
+          "min_clearance": 0.2032,
+          "min_island_area": 9.99999999996,
+          "min_thickness": 0.2032,
           "pad_connection": 1,
-          "remove_islands": 0,
+          "remove_islands": 1,
           "thermal_relief_gap": 0.5,
           "thermal_relief_spoke_width": 0.5
         }
@@ -76,7 +76,12 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "isolated_copper|109998767|116589268|c6849d9c-d4ac-4d1c-b27f-39339d960869|00000000-0000-0000-0000-000000000000",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -260,7 +265,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": ""
+      "sch_revision": "R0"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -682,7 +687,7 @@
         "uuid": "857b6c01-6619-44d1-8a68-a0ebdc6c0d4b"
       }
     ],
-    "used_designators": "X1,SW1,U1-2,D5,Q1,C1-3,#PWR1-16,#PWR38,BT1,#FLG1-2,R1-6",
+    "used_designators": "X1,SW1,U1-2,Q1,D5-11,C1-7,#PWR1-26,#PWR38,BT1,#FLG1-2,R1-7",
     "variants": []
   },
   "sheets": [
