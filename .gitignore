@@ -1,3 +1,4 @@
 ~*
-.history/
+.history
+*-backups
 .DS_Store
