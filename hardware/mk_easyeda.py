@@ -57,7 +57,8 @@ Usage
 -----
     ./mk_easyeda.py [source.kicad_pcb] [dest.kicad_pcb]
 
-Defaults to hardware/bsidesorl-v1.kicad_pcb -> hardware/bsidesorl-v1-easyeda.kicad_pcb.
+Defaults to bsidesorl-v1.kicad_pcb -> bsidesorl-v1-easyeda.kicad_pcb, both next
+to this script (in hardware/).
 
 The output is a ONE-WAY export artifact: re-run after every board change, and
 do not open it in KiCad (KiCad will rewrite what it does not recognize).
@@ -89,7 +90,7 @@ import sys
 from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
-DEFAULT_SRC = HERE / 'hardware' / 'bsidesorl-v1.kicad_pcb'
+DEFAULT_SRC = HERE / 'bsidesorl-v1.kicad_pcb'
 
 # EasyEDA picks init3 (KiCad 9/10 layer numbering) at or above this file version.
 INIT3_MIN_VERSION = "20241129"

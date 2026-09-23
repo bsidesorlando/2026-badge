@@ -1,0 +1,216 @@
+# Game text for game.c, compressed at build time by scripts/gen_text.py into
+# game_text.h (in the build directory, not the source tree).
+#
+# "@NAME" starts a message; game.c prints it with say(T_NAME). Its text is
+# every line up to the next "@" line, and always ends with a newline.
+# Trailing blank lines are dropped; leading and inner ones are kept.
+# Lines starting with "#" are comments. Plain ASCII only.
+#
+# Keep each line under ~70 columns: terminals will not wrap it nicely.
+
+# ---------- rooms (same order as enum room) ----------
+
+@ROOM_PARKING
+VISITOR PARKING
+Rows of ordinary ground cars bake in the sun. How quaint. The
+fairgrounds gate is NORTH.
+
+@ROOM_GATE
+FAIRGROUNDS GATE
+Chrome turnstiles bar the way NORTH into the World's Fair, beside
+an admission KIOSK. Visitor parking is SOUTH.
+
+@ROOM_AVENUE
+AVENUE OF PROGRESS
+Pavilions promise push-button living and a robot in every home. A
+fountain dances beneath the monorail, and a geodesic sphere gleams
+in the sun. The monorail station is EAST, the aerocar lot WEST,
+the gate SOUTH. High above, the Sky Spike's beacon pulses, with no
+way up from here.
+
+@ROOM_STATION
+MONORAIL STATION
+A pink monorail glides past without stopping. The departures
+BOARD is stuck. A brass PLAQUE is bolted to a pillar. The avenue
+is WEST.
+
+@ROOM_LOT
+AEROCAR LOT
+Bubble-topped flying cars hover in neat rows. The avenue is EAST.
+
+@ROOM_SKYPORT
+SKY SPIKE SKYPORT
+Wind whips around a landing ring near the top of the Sky Spike. A
+ROBOT butler stands before a sealed door leading UP. Chompy idles
+in the aerocar, ready to FLY back down.
+
+@ROOM_DECK
+OBSERVATION DECK
+The whole Fair spreads out below, gleaming like tomorrow. A time
+capsule PLAQUE is engraved:
+
+# ---------- room details ----------
+
+@TURNSTILES_OPEN
+The turnstiles stand open.
+
+@CHOMPY_WAITING
+LIL CHOMPY paces beside his aerocar, patting his pockets.
+
+@CHOMPY_READY
+LIL CHOMPY grins from the driver's seat, passkey in claw. He'll FLY
+you anywhere.
+
+@FOUND_PASSKEY
+Wait -- something glints beside a tire you walked right past: a
+chrome card stamped AEROCAR FLIGHT PASSKEY. You pick it up.
+
+@CHOMPY_ASLEEP
+In the nearest aerocar, LIL CHOMPY the alligator snoozes at the
+wheel, sunglasses askew.
+
+@SOLVED
+
+*** Challenge solved! Submit this flag at 2026.sunshinectf.org ***
+
+The robot butler rolls up: "You may now PEEK into the inner workings
+of the universe. Be careful not to look in places you shouldn't.
+See HELP."
+
+Check your badge: another light on the sphere came on, and the
+headlights just switched to rainbow mode. Tap Chompy's head to cycle
+away from it and back (it comes after hazards).
+
+# ---------- movement ----------
+
+@NO_CLEARANCE
+The turnstiles won't budge. The kiosk chirps: "Welcome, MULTIPASS
+holder! Kindly verify your identity."
+
+@DOOR_SEALED
+The robot glides in front of the door. "Passphrase, please."
+
+@NO_EXIT
+You can't go that way.
+
+# ---------- examine ----------
+
+@PLAQUE
+It reads:
+    ZLL FVB SHALY HSSPNHAVY
+Scratched underneath: "the line knows the way"
+
+@BOARD
+MONORAIL LINE 7 -- SERVICE TO TOMORROW. LINE 7 ... LINE 7 ...
+It seems to be stuck.
+
+@ROBOT
+A gleaming chrome butler, model RB-7, with a bow tie painted on.
+"Good day. Kindly SAY the passphrase to proceed."
+
+@KIOSK
+A chrome pedestal topped with a glass panel, etched with a
+fingerprint. It reminds you of something you're wearing.
+
+@CHOMPY_GRIN
+Chompy flashes a toothy grin.
+
+@CHOMPY_TAPPABLE
+Fast asleep. His head looks very tappable.
+
+@NOTHING_SPECIAL
+You see nothing special.
+
+# ---------- fly ----------
+
+@FLY_UP
+The aerocar lifts off and spirals up the Sky Spike, settling onto
+the landing ring near the top.
+
+@FLY_DOWN
+Chompy dives off the landing ring and whoops all the way down.
+
+@NEED_DRIVER
+You'll need a driver. Chompy is asleep.
+
+@NO_PASSKEY
+Chompy pats his pockets. "Can't fly without my passkey!"
+
+@FLAP
+You flap your arms. Nothing happens.
+
+# ---------- say ----------
+
+@NOBODY
+Nobody answers.
+
+@PASSPHRASE_OK
+The robot whirs. "...IN A WHILE, CROCODILE." It bows stiffly, and
+the door slides open. Stairs lead UP.
+
+@ACCESS_DENIED
+The robot beeps politely. "ACCESS DENIED. Do try again."
+
+# ---------- shell ----------
+
+@BANNER
+
+== LIL CHOMPY AND THE WORLD'S FAIR ==
+BSO-2026-MULTIPASS accepted. Welcome to the Fair!
+BSides Orlando 2026: building a better tomorrow together.
+Type HELP for commands.
+
+@HELP
+LOOK [thing], N/E/S/W/UP/DOWN, FLY, SAY <words>, STATUS, RESTART,
+RESET
+
+@HELP_PEEK
+PEEK <hex address>: read a 32-bit word of the badge's memory.
+
+@PEEK_USAGE
+Usage: PEEK <hex address>, e.g. PEEK 0x20000000
+
+@PEEK_DENIED
+ACCESS DENIED
+
+@STATUS_MODES
+Headlights: tap Chompy's head for normal/hazards, hold him for police
+lights.
+
+@STATUS_RAINBOW_ON
+Rainbow mode: unlocked.
+
+@STATUS_RAINBOW_OFF
+Rainbow mode: locked. Beat the adventure to unlock it.
+
+@STATUS_HACKUCF
+Hack@UCF color crossfade: unlocked. Tap during police lights to find
+it.
+
+@TAP_CHOMPY
+Chompy snores on. Words won't wake him.
+
+@NOTHING_HAPPENS
+Nothing happens.
+
+@CHOMP
+CHOMP!
+
+@XYZZY
+A hollow voice says "wrong game".
+
+@RESET_DONE
+Badge reset to a clean slate. Rebooting...
+
+@HUH
+I don't understand that. Try HELP.
+
+# ---------- badge events (printed out of turn, after a blank line) ----------
+
+@KIOSK_CHIMES
+The kiosk chimes: CLEARANCE VERIFIED. The turnstiles swing open.
+
+@CHOMPY_WAKES
+Chompy snorts awake. "Need a lift? Hop in and-- oh no. My flight
+passkey! I had it coming in through the gate this morning. Could you
+look around for it?"

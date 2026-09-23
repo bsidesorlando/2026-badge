@@ -1,0 +1,40 @@
+help
+look
+!scan
+n
+look kiosk
+n
+!scan
+n
+e
+look at plaque
+look board
+examine board
+w
+w
+fly
+tap chompy
+look chompy
+!chompy
+fly
+e
+s
+s
+look
+n
+n
+!scan
+n
+w
+fly
+up
+look at robot
+say open sesame
+say See you later, Alligator!
+up
+status
+help
+peek 0x08000000
+peek 0x08000002
+peek 0x2000
+restart
