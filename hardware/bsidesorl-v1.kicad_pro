@@ -78,11 +78,11 @@
       ],
       "drc_exclusions": [
         [
-          "isolated_copper|102617552|101275751|c6849d9c-d4ac-4d1c-b27f-39339d960869|00000000-0000-0000-0000-000000000000",
+          "isolated_copper|102617552|101275751|990a5c6c-4fbc-4353-bec4-2689bd55da22|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
-          "isolated_copper|171786728|76764913|c6849d9c-d4ac-4d1c-b27f-39339d960869|00000000-0000-0000-0000-000000000000",
+          "isolated_copper|171786728|76764913|9389e37b-edae-499b-bb75-bcdcd6840dd4|00000000-0000-0000-0000-000000000000",
           ""
         ]
       ],
@@ -132,7 +132,7 @@
         "shorting_items": "error",
         "silk_edge_clearance": "ignore",
         "silk_over_copper": "ignore",
-        "silk_overlap": "warning",
+        "silk_overlap": "ignore",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
@@ -694,7 +694,7 @@
         "uuid": "857b6c01-6619-44d1-8a68-a0ebdc6c0d4b"
       }
     ],
-    "used_designators": "L1-2,X1,C1-7,U1-3,SW1,Q1,#PWR1-34,#PWR38,D1-11,R1-14,BT1-2,#FLG1-3,J1",
+    "used_designators": "L1-2,X1,SW1,C1-7,U1-3,Q1,#PWR1-34,#PWR38,D1-11,R1-14,BT1-2,#FLG1-3,J1",
     "variants": []
   },
   "sheets": [
