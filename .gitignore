@@ -1,11 +1,4 @@
 ~*
-.history
 *-backups
 .DS_Store
 *.bak
-
-# Local-only fab/order artifacts (EasyEDA exports, JLC CAM output, keys)
-/EasyEDA_Gerber_*
-/bsidesorl-v1.zip
-/back.png
-/jlc_keys.txt
