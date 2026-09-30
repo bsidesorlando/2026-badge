@@ -55,6 +55,11 @@ off the same drive as `LOG.CSV`.
 
 ![programmer SAO board](assets/programmer_sao.jpg)
 
+> Note that in the picture, the SAO connector is connected on G14-H16. The
+> traces on the back were cut between G and H to avoid bridging them. The
+> SAO connector is oriented so the top is facing downwards in this photo,
+> meaning 3V3 is on G16 and GND is on H16.
+
 For this, you need a Raspberry Pi Pico or compatible board. I used a
 [WaveShare RP2040-Zero](https://www.amazon.com/dp/B0DXL12W59) board for the
 production programmer SAOs that were used in the soldering village at
